@@ -30,14 +30,14 @@ class User {
         }
 }
 
-var books = [
+const books = [
     {title: 'The Odissey', author:'Homer'},
     {title: 'Les miserables', author:'Victor Hugo'},
     {title: 'Ulises', author: 'James Joyce'}
 ]
-var pets = ['Dog', 'Cat', 'Rabbit']
+const pets = ['Dog', 'Cat', 'Rabbit']
 
-var newUser1 = new User('Clark', 'Kent', books, pets)
+const newUser1 = new User('Clark', 'Kent', books, pets)
 
 //Validations
 
